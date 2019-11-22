@@ -1,5 +1,5 @@
-#ifndef TASK_H
-#define TASK_H
+#ifndef DATATYPES_TASK_H
+#define DATATYPES_TASK_H
 
 #include <chrono>
 
@@ -42,4 +42,4 @@ Task::Task(int priority, int time_mins) :
     priority_(Clamp(priority)),
     time_mins_(minutes(time_mins)) {}
 
-#endif // TASK_H
+#endif // DATATYPES_TASK_H
