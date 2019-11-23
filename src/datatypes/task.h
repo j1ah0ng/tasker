@@ -15,6 +15,7 @@ class Task {
         static const int kMinPriority = 0;
 
         Task(const Task &task);
+
         explicit Task(int priority);
         Task(int priority, minutes time_mins);
         Task(int priority, int time_mins);

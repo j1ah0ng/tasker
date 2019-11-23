@@ -3,8 +3,11 @@
 
 #include "task.h"
 #include <vector>
+#include <set>
 
-class HashQueue {
+class Queue {
+    private:
+        std::set<Task> back_;
 };
 
 #endif // DATATYPES_QUEUE_H
